@@ -8,6 +8,8 @@ fi
 
 cp recorder.html ${dir}/static
 cp recorder.js ${dir}/static
+cp recorder.css ${dir}/static
+
 echo Copied recorder files to ${dir}static
 
 file=${dir}${file}
