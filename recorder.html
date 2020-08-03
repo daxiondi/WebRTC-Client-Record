@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jitsi Recording Demo</title>
+    <link rel="stylesheet" type="text/css" href="recorder.css">
+</head>
+<body>
+    <div>
+        <video controls playsinline autoplay hidden id="recordPlayback"></video>
+    </div>
+    <div id="recordControls">
+        <span id="recordStatus"></span>
+        <button class="recordBtn" id="recordStart">Record</button>
+        <button class="recordBtn" id="recordPause" disabled>Pause</button>
+        <button class="recordBtn" id="recordStop" disabled>Stop</button>
+        <button class="recordBtn" id="recordPlay" disabled>Play</button>
+        <button class="recordBtn" id="recordSave" disabled>Save</button>
+        <script src="recorder.js"></script>
+    </div>
+    <p>
+        <label for="frameRate">Frame rate</label>
+        <input id="frameRate" type="text" size="2"/>
+    </p>
+</body>
+</html>
