@@ -1,7 +1,16 @@
+# WebRTC Community
+Welcome to join the [WebRTC Community](https://webrtcsample.ink/).
+Y
+ou can use English to ask your questions and communicate with webrtc scholars in various countries. 
+
+We hope this can help more people
+
 # WebRTC-Client-Record
 Local recording using webrtc
 
-Use getdisplaymedia to capture the user selected screen and getusermedia local audio. If you use Chrome browser to capture the voice of a remote participant through system audio, make sure you click capture audio and the echocancellation parameter eliminates the local echo
+Use getdisplaymedia to capture the user selected screen and getusermedia local audio. 
+
+If you use Chrome browser to capture the voice of a remote participant through system audio, make sure you click capture audio and the echocancellation parameter eliminates the local echo
 
 # Installation
 *This document applies to [Jitsi Meet](https://github.com/jitsi/jitsi-meet) client recording, but in theory it applies to client recording for all streaming media servers*
