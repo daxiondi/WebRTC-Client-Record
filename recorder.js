@@ -62,6 +62,7 @@ function checkCodecsSupported(){
  * */
 const start = document.getElementById('recordStart');
 const frameRate = document.getElementById('frameRate');
+console.log(frameRate);
 start.addEventListener('click', async ()=> {
 
     const options = checkCodecsSupported();
